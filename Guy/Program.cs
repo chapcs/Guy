@@ -2,7 +2,13 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        //ENTER CODE PER COMMENTS IN BOOK
+        while (true)
+        {
+            // call writemyinfo methods
+            Console.WriteLine("Enter an amount: ");
+        }
+            Console.WriteLine("Hello, World!");
     }
 }
 
