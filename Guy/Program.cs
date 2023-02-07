@@ -2,14 +2,17 @@
 {
     private static void Main(string[] args)
     {
-        //object initializers
+        // object initializers
         Guy joe = new Guy() { cash = 50, name = "Joe" };
         Guy bob = new Guy() { cash = 100, name = "Bob" };
 
         while (true)
         {
-            // call writemyinfo methods
-            Console.WriteLine("Enter an amount: ");
+            // calling writemyinfo methods
+            joe.WriteMyInfo();
+            bob.WriteMyInfo();
+            Console.Write("Enter an amount: ");
+
         }
             Console.WriteLine("Hello, World!");
     }
