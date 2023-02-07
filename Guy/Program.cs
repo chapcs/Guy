@@ -2,7 +2,10 @@
 {
     private static void Main(string[] args)
     {
-        //ENTER CODE PER COMMENTS IN BOOK
+        //object initializers
+        Guy joe = new Guy() { cash = 50, name = "Joe" };
+        Guy bob = new Guy() { cash = 100, name = "Bob" };
+
         while (true)
         {
             // call writemyinfo methods
